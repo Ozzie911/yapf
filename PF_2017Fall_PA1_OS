@@ -1,0 +1,24 @@
+# This program translates the quantity of steps walked by a user on a given day,
+# into miles and calories lost.
+
+# Variable Declarations: All variables are declared where initially called
+
+# Data input from the user
+
+
+dayOfWeek = input("Enter the day of the week ")
+stepsTaken = int(input
+                 ("Enter the number of steps reported on the pedometer "))
+
+# Calculation of variables
+
+
+milesWalked =(stepsTaken/2000)
+caloriesLost =(milesWalked*65)
+
+# Display of data calculated for the day entered
+
+
+print ("The", stepsTaken, "steps walked on", dayOfWeek)
+print ("is equivalent to walking ", milesWalked, " miles, and resulted in ", caloriesLost,
+        "calories lost.")
